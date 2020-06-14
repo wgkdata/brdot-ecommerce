@@ -1,0 +1,160 @@
+:root{
+    --primary-color: #1d55fc;
+}
+
+/* Reset e algumas configurações gerais */
+*{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+
+    font-family: 'Montserrat', sans-serif;
+
+    outline: none;
+    transition: background-color 400ms;
+}
+
+/* Barra de navegação */
+
+nav{
+    display: flex;
+    
+    height: 100px;
+
+    padding: 10px;
+    
+    align-items: center;
+    
+    background-color: #1c55ff;
+    color: white;
+    
+}
+
+nav .brand{
+    display: flex;
+    
+    margin-left: 20px;
+    
+    align-items: center;
+    
+    font-size: 24px;
+    text-decoration: none;
+
+    color: white;
+}
+
+nav .brand img{
+    width: 74px;
+
+    margin-right: 2px;
+}
+
+nav .search-field{
+    margin: 0 auto;
+    margin-right: 160px;
+}
+
+nav .search-field input{
+    width: 680px;
+    height: 40px;
+    
+    margin-right: 0;
+    padding: 8px;
+
+    border: 0;
+    border-radius: 16px;
+}
+
+nav .search-field button{
+    height: 40px;
+
+    margin: -47px;
+
+    border: 0;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+
+    background-color:#94acfc;
+    color: white;   
+}
+
+nav .search-field button:hover{
+    background-color: #4774fc;
+    cursor: pointer;
+}
+
+nav .search-field i{
+    width: 50px;
+}
+
+nav .account-manage{
+    margin-right: 2px;
+
+    font-weight: 700;
+}
+
+nav a{
+    padding: 0 6px;
+    font-size: 13px;
+    
+    text-decoration: none;
+    color: white;
+}
+
+nav .account-manage a:hover{
+    color: rgb(221, 221, 221);
+    
+    transition: 400ms;
+}
+
+/* Rodapé */
+
+footer{
+    display: flex;
+
+    width:100%;
+    height: 30%;
+
+    margin: auto;
+    margin-top: 120px;
+    padding: 20px;
+    
+    justify-content: center;
+    align-items: flex-start;
+
+    bottom:0;
+
+    background-color: var(--primary-color);
+}
+
+footer div, footer p{
+    display: flex;
+
+    margin: 0 50px;
+    margin-top: 15px;
+    
+    flex-direction: column;
+}
+
+footer a,
+footer h1{
+    font-size: 17px;
+    text-decoration: none;
+    
+    color: white;
+}
+
+footer a{
+    padding-bottom: 10px;
+}
+
+footer a:hover{
+    color: rgb(194, 194, 194);
+    transition: 400ms;
+}
+
+
+footer h1{
+    margin-bottom: 40px;
+}
