@@ -1,4 +1,4 @@
-section{
+div{
     margin: 0 20px;
 }
 
@@ -12,7 +12,7 @@ hr{
 .nav-min{
     display: flex;
 
-    width: 15%;
+    width: 18%;
 
     margin-top: 16px;
     margin-bottom: 20px;
