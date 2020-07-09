@@ -208,3 +208,7 @@ img:active{
 
     list-style-position: inside;
 }
+
+.content{
+    display: none;
+}
